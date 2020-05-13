@@ -1,0 +1,90 @@
+body{
+  margin:0;
+  text-align: center;/*tis isto centre the containt all over the body*/
+  font-family: 'Merriweather', serif;
+
+  /*
+  if we have a font size here it get inhareted on the others and it will add up
+  it could be dengurous
+  */
+  /* those font is embeded from the link fonts.google.com
+  font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+
+  */
+}
+h1{
+
+  font-size: 5.625rem; /*  recommanded rem -> root em it will ignore the otherinherted by upstrem changes
+    90px/16 562.5 em and percentages are change relatively yo the size oppesite to px static */
+  margin:50px auto 0 auto;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+ /*width: 10%; this is will make the width 10%
+  margin:0 auto ; this will set the margin to 0 top and bot and auto l R
+*/
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.5rem; /* 40px devided by 16em = 2.5 rem*/
+    color: #66BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+/*
+margin: shift the containt around the edges
+ boarder:(border: solid xxxPx) it gives the containt a boarder and it is custimaize
+  padding: it push the containts from the contures
+*/
+/*
+to call a class us the dote if you call the id use the#
+if you use the elment use the identifier
+.profile{
+  width: 200px;
+  height: 200px;
+}
+*/
+
+.top-container{
+  background-color: #def4f0;
+position: relative;
+padding-top:100px;/*this is to give it a space and not to have the elements condence in the top
+*/
+}
+.middle-container{
+  /*
+background-color: red;
+width: 200px;tis is to give it adimantion if not it will be empty
+height: 200px;
+*/
+}
+.bottom-container{
+
+/*
+  background-color: blue;
+  width: 200px;/*tis is to give it adimantion if not it will be empty
+  height: 200px;*/
+}
+.pro{
+  text-decoration: underline;
+}
+.top-cloud{
+position:absolute;/*depends on the Position: relative of the top container*/
+right:  300px;
+top: 50px;
+
+
+}
+.bottom-cloud{
+position: absolute;/*depends on the Position: relative of the top container*/
+left: 300px;
+bottom: 300px;
+}
+.profile-img{
+  width: 200px;
+  height: 200px;
+  
+}
